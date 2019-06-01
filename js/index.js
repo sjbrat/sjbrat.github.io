@@ -41,6 +41,8 @@ $(function () {
       }
     });
 
-    $('textarea').autoResize();
+// autosize
+
+
 
 })

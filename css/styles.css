@@ -105,7 +105,6 @@ h3 {
 .card .front {
   display: block;
   width: 100%;
-  color: white;
   position: absolute;
   backface-visibility: hidden;
 }
@@ -187,14 +186,15 @@ h3 {
 .footer textarea, input {
   background-color: #A2B4C7;
   color: white;
+  margin-top: 10px;
+
 }
 .footer {
     flex-direction: row;
-  	/* align-items: center;
+  	align-items: center;
   	flex-direction: column;
   	align-content: center;
-  	justify-content: center; */
-
+  	justify-content: center;
   	color: white;
   }
 
