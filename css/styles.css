@@ -4,7 +4,10 @@
 }
 
 body {
-  background-color: #142535;
+  background-color: #00120B;
+  /* background-color: #0A160B; */
+  /* background-color:#08232C; */
+  /* background-color: #142535; */
 }
 
 
@@ -184,8 +187,8 @@ h3 {
 }
 
 .footer textarea, input {
-  background-color: #A2B4C7;
-  color: white;
+  background-color: #E5E7E6;
+  color: black;
   margin-top: 10px;
 
 }
@@ -229,5 +232,31 @@ h3 {
       line-height: 1em;
     }
 
+/* ////// */
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+  /* styles go here */
+}
+
+/*
+  Small devices (landscape phone, 576px and down)
+*/
+@media only screen and (max-width: 576px){
+  body  {
+    background-color: white;
+  }
 
 }
