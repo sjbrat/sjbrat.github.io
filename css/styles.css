@@ -8,10 +8,6 @@ body {
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
-  /* background-color: #00120B; */
-  /* background-color: #0A160B; */
-  /* background-color:#08232C; */
-  /* background-color: #142535; */
 }
 
 @keyframes bgcolor {
@@ -20,15 +16,15 @@ body {
     }
 
     30% {
-        background-color: #0A160B;
+        background-color: #03060F;
     }
 
     60% {
-        background-color: #08232C;
+        background-color: #090D14;
     }
 
     90% {
-        background-color: #142535;
+        background-color: #010101;
     }
 
     100% {
