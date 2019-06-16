@@ -1,10 +1,10 @@
 * {
-  /* border: 1px dashed blue; */
+  /* border: 1px dashed white; */
   box-sizing: border-box;
 }
 
 body {
-  -webkit-animation: bgcolor 20s infinite;
+  -webkit-animation: bgcolor 50s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
@@ -71,8 +71,14 @@ body {
 .grid-item--height240  {
   height: 240px;
 }
+.grid-item--height255  {
+  height: 255px;
+}
 .grid-item--height260  {
   height: 260px;
+}
+.grid-item--height265  {
+  height: 265px;
 }
 .grid-item--height280  {
   height: 280px;
@@ -95,11 +101,23 @@ body {
 .grid-item--height330  {
   height: 330px;
 }
+.grid-item--height335  {
+  height: 335px;
+}
 .grid-item--height345  {
   height: 345px;
 }
+.grid-item--height360  {
+  height: 360px;
+}
+.grid-item--height385  {
+  height: 385px;
+}
 .grid-item--height390  {
   height: 390px;
+}
+.grid-item--height395  {
+  height: 395px;
 }
 .grid-item--height400  {
   height: 400px;
@@ -107,11 +125,23 @@ body {
 .grid-item--height420  {
   height: 420px;
 }
+.grid-item--height430  {
+  height: 430px;
+}
 .grid-item--height450  {
   height: 450px;
 }
+.grid-item--height465  {
+  height: 465px;
+}
 .grid-item--height480  {
   height: 480px;
+}
+.grid-item--height485  {
+  height: 480px;
+}
+.grid-item--height520  {
+  height: 520px;
 }
 
 h3 {
@@ -268,15 +298,20 @@ h3 {
   Medium devices (tablets, 768px and down)
 */
 @media only screen and (max-width: 768px) {
-  /* styles go here */
+  /* body  {
+    background-color: white;
+  } */
 }
-
 /*
   Small devices (landscape phone, 576px and down)
 */
 @media only screen and (max-width: 576px){
+  /* responsive is not working!!! */
   body  {
     background-color: white;
   }
 
+  .footer {
+    color: orange;
+  }
 }
