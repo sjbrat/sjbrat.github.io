@@ -163,18 +163,21 @@ h3 {
 }
 
 .card .back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #EAECEE;
   color: black;
   height: 100%;
-  transform: rotateY( 180deg );
-  top: 0;
-  backface-visibility: hidden;
-  padding: 10px;
+  /* transform: rotateY( 180deg ); */
+  /* top: 0; */
+  /* backface-visibility: hidden; */
+  /* padding: 10px; */
 }
 
-.card.flipped {
+/* .card.flipped {
   transform: rotateY( 180deg );
-}
+} */
 
 .grid-item .button  {
   font-weight: bold;
@@ -186,6 +189,19 @@ h3 {
 .button a {
   text-decoration: none;
   color: black;
+}
+
+/* new style for button, feel free to change the color */
+a.btn {
+  color: #fff;
+  background: #FF0066;
+  padding: .5rem 1rem;
+  display: inline-block;
+  border-radius: 4px;
+  transition-duration: .25s;
+  border: none;
+  font-size: 14px;
+  text-decoration: none;
 }
 
 .modal p {
@@ -240,9 +256,13 @@ h3 {
   background-color: #E5E7E6;
   color: black;
   margin-top: 10px;
+  padding: 5px;
+  font-size: 18px;
 
 }
 .footer {
+    margin-top: 30px;
+    display: flex;
     flex-direction: row;
   	align-items: center;
   	flex-direction: column;
@@ -254,12 +274,14 @@ h3 {
   form {
   	display: flex;
   	flex-direction: column;
-  	//background transparent to allow for :before&::after effect
+  	/* background transparent to allow for :before&::after effect */
   	background: transparent;
-  	max-width: 320px;
-  	//height: 300px;
+  	max-width: 400px;
   	padding: 2rem 2rem 2rem 2rem;
   	position: relative;
+    border: 1px white solid;
+    border-radius: 3px;
+
   	&::before,
   	&::after {
   		position: absolute;
@@ -268,6 +290,7 @@ h3 {
   		height: 100%;
   		transition: all 0.5s ease;
   	}
+
 
     .thankyou {
       font-weight: 200;
@@ -281,6 +304,7 @@ h3 {
       display: inline-block;
       line-height: 1em;
     }
+
 
 /* ////// */
 /* Extra Large devices (large desktops, 1200px and down) */
