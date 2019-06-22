@@ -213,6 +213,11 @@ a.btn {
   font-weight: bold;
 }
 
+.back ul li  {
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .button {
 	-moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
 	-webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
