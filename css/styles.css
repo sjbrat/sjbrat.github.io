@@ -144,9 +144,6 @@ body {
   height: 520px;
 }
 
-h3 {
-  text-align: center;
-}
 
 .card {
   width: 100%;
@@ -169,15 +166,7 @@ h3 {
   background-color: #EAECEE;
   color: black;
   height: 100%;
-  /* transform: rotateY( 180deg ); */
-  /* top: 0; */
-  /* backface-visibility: hidden; */
-  /* padding: 10px; */
 }
-
-/* .card.flipped {
-  transform: rotateY( 180deg );
-} */
 
 .grid-item .button  {
   font-weight: bold;
@@ -210,6 +199,11 @@ a.btn {
 
 .back h4 {
   text-align: center;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .button {
