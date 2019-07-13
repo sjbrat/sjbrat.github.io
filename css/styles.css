@@ -125,11 +125,17 @@ body {
 .grid-item--height405  {
   height: 405px;
 }
+.grid-item--height406  {
+  height: 406px;
+}
 .grid-item--height420  {
   height: 420px;
 }
 .grid-item--height425  {
   height: 425px;
+}
+.grid-item--height426  {
+  height: 426px;
 }
 .grid-item--height430  {
   height: 430px;
