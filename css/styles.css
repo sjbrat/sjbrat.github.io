@@ -122,8 +122,14 @@ body {
 .grid-item--height400  {
   height: 400px;
 }
+.grid-item--height405  {
+  height: 405px;
+}
 .grid-item--height420  {
   height: 420px;
+}
+.grid-item--height425  {
+  height: 425px;
 }
 .grid-item--height430  {
   height: 430px;
@@ -311,6 +317,25 @@ a.btn {
       line-height: 1em;
     }
 
+    .bottom {
+      display:flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+
+    }
+
+    .nav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+
+
+
+
+
 
 /* ////// */
 /* Extra Large devices (large desktops, 1200px and down) */
@@ -340,5 +365,7 @@ a.btn {
   body  {
     background-color: white;
   }
+
+
 
 }
