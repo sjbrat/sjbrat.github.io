@@ -114,6 +114,9 @@ body {
 .grid-item--height265  {
   height: 265px;
 }
+.grid-item--height270  {
+  height: 270px;
+}
 .grid-item--height280  {
   height: 280px;
 }
@@ -137,6 +140,9 @@ body {
 }
 .grid-item--height335  {
   height: 335px;
+}
+.grid-item--height340  {
+  height: 340px;
 }
 .grid-item--height345  {
   height: 345px;
@@ -194,6 +200,9 @@ body {
 }
 .grid-item--height520  {
   height: 520px;
+}
+.grid-item--height565  {
+  height: 565px;
 }
 
 
