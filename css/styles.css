@@ -75,11 +75,20 @@ body {
 
 .grid-item img {
   width: 100%;
-  border-radius: 5px;
+  border-radius: 3px;
 }
 
+.grid-item--height177  {
+  height: 177px;
+}
+.grid-item--height179  {
+  height: 179px;
+}
 .grid-item--height180  {
   height: 180px;
+}
+.grid-item--height205  {
+  height: 205px;
 }
 .grid-item--height210  {
   height: 210px;
@@ -87,14 +96,20 @@ body {
 .grid-item--height213  {
   height: 210px;
 }
+.grid-item--height224  {
+  height: 224px;
+}
+.grid-item--height228  {
+  height: 228px;
+}
 .grid-item--height230  {
   height: 230px;
 }
-.grid-item--height225  {
-  height: 225px;
-}
 .grid-item--height235  {
   height: 235px;
+}
+.grid-item--height239  {
+  height: 239px;
 }
 .grid-item--height240  {
   height: 240px;
@@ -105,14 +120,11 @@ body {
 .grid-item--height255  {
   height: 255px;
 }
-.grid-item--height266  {
-  height: 255px;
-}
 .grid-item--height260  {
   height: 260px;
 }
-.grid-item--height265  {
-  height: 265px;
+.grid-item--height266  {
+  height: 255px;
 }
 .grid-item--height270  {
   height: 270px;
@@ -120,8 +132,8 @@ body {
 .grid-item--height280  {
   height: 280px;
 }
-.grid-item--height295  {
-  height: 295px;
+.grid-item--height293  {
+  height: 293px;
 }
 .grid-item--height300  {
   height: 300px;
@@ -129,23 +141,29 @@ body {
 .grid-item--height315  {
   height: 315px;
 }
+.grid-item--height318  {
+  height: 318px;
+}
 .grid-item--height320  {
   height: 320px;
 }
 .grid-item--height325  {
   height: 325px;
 }
+.grid-item--height327  {
+  height: 327px;
+}
 .grid-item--height330  {
   height: 330px;
 }
-.grid-item--height335  {
-  height: 335px;
-}
-.grid-item--height340  {
-  height: 340px;
+.grid-item--height339  {
+  height: 339px;
 }
 .grid-item--height345  {
   height: 345px;
+}
+.grid-item--height358  {
+  height: 358px;
 }
 .grid-item--height360  {
   height: 360px;
@@ -153,23 +171,20 @@ body {
 .grid-item--height380  {
   height: 380px;
 }
-.grid-item--height385  {
-  height: 385px;
+.grid-item--height382  {
+  height: 382px;
+}
+.grid-item--height387  {
+  height: 387px;
 }
 .grid-item--height390  {
   height: 390px;
-}
-.grid-item--height395  {
-  height: 395px;
 }
 .grid-item--height400  {
   height: 400px;
 }
 .grid-item--height405  {
   height: 405px;
-}
-.grid-item--height406  {
-  height: 406px;
 }
 .grid-item--height420  {
   height: 420px;
@@ -180,14 +195,11 @@ body {
 .grid-item--height426  {
   height: 426px;
 }
-.grid-item--height430  {
-  height: 430px;
-}
 .grid-item--height450  {
   height: 450px;
 }
-.grid-item--height465  {
-  height: 465px;
+.grid-item--height462  {
+  height: 462px;
 }
 .grid-item--height480  {
   height: 480px;
@@ -195,8 +207,8 @@ body {
 .grid-item--height485  {
   height: 480px;
 }
-.grid-item--height490  {
-  height: 490px;
+.grid-item--height488  {
+  height: 488px;
 }
 .grid-item--height520  {
   height: 520px;
@@ -218,6 +230,12 @@ body {
   width: 100%;
   position: absolute;
   backface-visibility: hidden;
+}
+
+.card .front:hover {
+  -moz-box-shadow: 0 0 25px #ccc;
+  -webkit-box-shadow: 0 0 25px #ccc;
+  box-shadow: 0 0 25px #ccc;
 }
 
 .card .back {
