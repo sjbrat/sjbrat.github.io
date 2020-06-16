@@ -4,32 +4,7 @@
 }
 
 body {
-  -webkit-animation: bgcolor 50s infinite;
-    animation: bgcolor 10s infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-}
-
-@keyframes bgcolor {
-    0% {
-        background-color: #00120B;
-    }
-
-    30% {
-        background-color: #03060F;
-    }
-
-    60% {
-        background-color: #090D14;
-    }
-
-    90% {
-        background-color: #010101;
-    }
-
-    100% {
-        background-color: #000000;
-    }
+    background-color: #030303;
 }
 
 .nav-bar ul{
@@ -132,6 +107,9 @@ body {
 .grid-item--height280  {
   height: 280px;
 }
+.grid-item--height286  {
+  height: 286px;
+}
 .grid-item--height293  {
   height: 293px;
 }
@@ -168,6 +146,9 @@ body {
 .grid-item--height360  {
   height: 360px;
 }
+.grid-item--height364  {
+  height: 364px;
+}
 .grid-item--height380  {
   height: 380px;
 }
@@ -179,6 +160,9 @@ body {
 }
 .grid-item--height390  {
   height: 390px;
+}
+.grid-item--height395  {
+  height: 395px;
 }
 .grid-item--height400  {
   height: 400px;
@@ -215,6 +199,9 @@ body {
 }
 .grid-item--height565  {
   height: 565px;
+}
+.grid-item--height733  {
+  height: 733px;
 }
 
 
@@ -414,7 +401,6 @@ a.btn {
 /* Extra Large devices (large desktops, 1200px and down) */
 @media only screen and (max-width: 1200px) {
 }
-
 /*
   Large devices (desktops, 992px and down)
 */
@@ -434,11 +420,4 @@ a.btn {
   Small devices (landscape phone, 576px and down)
 */
 @media only screen and (max-width: 576px){
-  /* responsive is not working!!! */
-  body  {
-    background-color: white;
-  }
-
-
-
 }
